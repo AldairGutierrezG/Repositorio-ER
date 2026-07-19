@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Repositorio de asignatura</title>
+  <link rel="stylesheet" href="estilos.css">
+</head>
+<body data-pagina="asignatura">
+
+  <header class="encabezado encabezado-asignatura">
+    <img src="utld.png" class="logo logo-izq" alt="Logo UTLD">
+
+    <div class="encabezado-texto">
+      <h1 id="nombre-asignatura">Cargando asignatura...</h1>
+      <p id="docente-asignatura">Repositorio académico</p>
+      <a href="index.html" class="boton-volver">← Volver a asignaturas</a>
+    </div>
+
+    <img src="renders.png" class="logo logo-der" alt="Logo del programa educativo">
+  </header>
+
+  <div class="contenedor">
+    <aside class="menu-lateral">
+      <div class="titulo-menu">
+        <span id="icono-asignatura">📚</span>
+        <strong>Unidades</strong>
+      </div>
+
+      <nav id="menu-unidades"></nav>
+    </aside>
+
+    <main id="visualizador" class="visualizador">
+      <div id="estado" class="estado">Cargando contenido...</div>
+    </main>
+  </div>
+
+  <footer>
+    Universidad Tecnológica de La Laguna Durango |
+    TSU Energía Turbo-Solar
+  </footer>
+
+  <script src="app.js"></script>
+</body>
+</html>
