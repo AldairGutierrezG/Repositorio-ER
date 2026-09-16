@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://aldairgutierrezg.github.io/Repositorio-ER/sitemap.xml
